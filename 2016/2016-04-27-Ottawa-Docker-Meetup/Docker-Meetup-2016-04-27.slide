@@ -1,0 +1,40 @@
+Docker for Mac/Windows (BETA)
+Ottawa Docker Meetup
+19:00 27 Apr 2016
+Tags: docker mac windows beta meetup yow ottawa
+
+Drew MacInnis
+@drmdrew
+
+* Docker for Mac
+
+- Sign up for beta; get your invite
+.link https://beta.docker.com/docs/mac/getting-started/
+- Download DMG
+- Install
+.image images/docker-mac-dmg-install.png
+
+* Gotcha for VirtualBox users!
+
+- pre-v5 VirtualBox doesn't play well with Docker for Mac (xhyve)
+.image images/docker-mac-old-virtualbox.png
+- ... so upgrade Virtualbox!
+.link https://www.virtualbox.org/wiki/Downloads
+
+* Docker in the Menu bar
+
+.image images/docker-mac-menubar.png
+
+* Docker client
+
+- docker client
+    └> docker --version
+    Docker version 1.11.0, build 4dc5990
+
+* Docker Settings
+
+.image images/docker-mac-settings.png
+
+* What
+
+- Docker for Mac (Beta)
